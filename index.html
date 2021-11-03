@@ -16,8 +16,9 @@
       <hr />
       <ul>
         <li>CSS Seçiciler</li>
-        <li>* Seçici</li>
-        <li lang="" id="kimlik">ID Seçici</li>
+        <li>* Seçici: CCC sayfasında *{} ile kullanılır ve body içindeki her şeyi etkiler. </li>
+        <br>
+        <li lang="" id="kimlik">ID Seçici: ID atanmış olan seçicidir ve  sadece ID ile tanımlanmış bölümü etkiler. # ile başlar ve seçilen  hemen ardından ID olarak ne yazmışsak o yazılır. #örnek {} </li>
       </ul>
       <p class="p-2">
         <a href="#">Konu - 2</a>
@@ -26,8 +27,9 @@
       <hr />
       <ul class="liste">
         <li>CSS Seçiciler</li>
-        <li>Torun Seçici</li>
-        <li>Basit Seçici</li>
+        <li>Torun Seçici : DOM=Dokument Objekt Model diye de adlandırılır. İki alt bileşeni şekillendirir. Örnek ul li{} gibi. ul içindeki tüm li tagları bundan etkilenir. </li>
+        <br>
+        <li>Basit Seçici: SAdece belli taglar bundan etkilensin diye bu secici kullanılır. Örnek:  a{} gibi</li>
       </ul>
       <p class="p-3">
         <a href="#">Konu - 3</a>
@@ -36,8 +38,9 @@
       <hr />
       <ul>
         <li>CSS Seçiciler</li>
-        <li>X + Y Bitişik Seçici</li>
-        <li>X > Y Çocuk Seçici</li>
+        <li>X + Y Bitişik Seçici:Her tagın hemen sonrasında gelen elementlerin etkilenmesi amacı ile kullanılır. Örnek: p+hr{}, "p"den hemen sonra geln "hr" taglari için kullanılmış olur ve orayı şekillendirir.  </li>
+        <br>
+        <li>X > Y Çocuk Seçici: Alt kümesi olan taglar bundan etkilenir. Örnek:  ul>li{} biçiminde kullanılır. ul lewrin içindeki bütün li leri kapsar ve sekillendirir.</li>
       </ul>
       <p class="p-4">
         <a href="#">Konu - 4</a>
@@ -46,8 +49,11 @@
       <hr />
       <ul>
         <li lang="">CSS Seçiciler</li>
-        <li>X[Y] Nitelik Seçici</li>
-        <li>X ~ Y Genişletilmiş Bitişik Seçici</li>
+        <li>X[Y] Nitelik Seçici: Herhangi bir özelliği olanları seç ve şekillendir demektir. Örnek: li[lang]{} gibi, lilerden lang özelliği olanları seç ve şekillendir demektir.
+             </li>
+        <li>X ~ Y Genişletilmiş Bitişik Seçici:Örnek: p~hr{} gibi. plerden sonra gelen bütün hrleri şekillendir demektir. </li>
+        <li>Class Seçici: Örnek: .p-2{} gibi. .nokta işareti class seçici için kullanılır ve  </li>
+      </ul>
       </ul>
     </div>
   </body>
