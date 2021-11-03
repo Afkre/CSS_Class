@@ -1,0 +1,57 @@
+.ortala {
+    height: auto;
+    width: 800px;
+    margin: 0px auto;
+  }
+  body {
+    background-color: burlywood;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  /*Tüm Elementleri Seçer*/
+  * {
+    font-family: "Courier New", Courier, monospace;
+  }
+  /*ID Seçici*/
+  #kimlik {
+    color: red;
+    border: 1px solid black;
+  }
+  /*Torun Seçici*/
+  /*ul li {
+    font-weight: bold;
+    color: blue !important;
+  }*/
+  /*Basit Seçici*/
+  a {
+    text-decoration: overline;
+  }
+  /*Bitişik Seçici*/
+  p + hr {
+    background-color: red;
+  }
+  /* Çocuk Seçici */
+  /*ul > li {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rebeccapurple;
+  }*/
+  
+  /*Nitelik Seçici*/
+  
+  li[lang] {
+    border: 3px solid saddlebrown !important;
+    border-radius: 20px;
+  }
+  
+  /*Genişletilmiş Bitişik Seçici*/
+  p ~ hr {
+    background-color: yellow !important;
+  }
+  
+  /*Class Seçiciler*/
+  
+  .p-2 {
+    border: 3px solid black;
+    border-radius: 50px;
+  }
+  
