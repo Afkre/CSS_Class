@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Transitions</title>
+    <style>
+      h1 {
+        height: 90px;
+        width: 550px;
+        color: blue;
+        padding-top: 40px;
+        margin: 0px auto;
+        text-align: center;
+        background-color: coral;
+        border: 3px solid black;
+        border-radius: 50px;
+        margin-bottom: 10px;
+        }
+       
+      .center {
+        width: 550px;
+        height: 800px;
+        margin: 0px auto;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: black;
+        transition-property: all; /*border-radius, background-color*/ /*Geçiş Özelliği*/
+        transition-duration: 1s; /*Geçiş hızı*/
+        transition-timing-function: ease; /* Geçiş Hızı türü */
+        transition-delay: 2s; /*GeçişGecikmesi*/
+      }
+      .box:hover {
+        background-color: chocolate;
+        border-radius: 100px;
+      }
+      img {
+        height: 200px;
+        width: 200px;
+        transition: all 0.5s ease;
+      }
+      img:hover {
+        transform: scale(2);
+        border: 3px solid black;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.5s cubic-bezier(0.47, 0, 0.745, 0.715);
+      }
+      p:hover {
+        font-size: 24px;
+        color: darkslategrey;
+        transform: translateX(200px);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Transition - Effect</h1>
+    <div class="center">
+      <div class="box"></div>
+      <img src="image1.jfif" alt="" />
+      <p>This is the Transition Effect.</p>
+    </div>
+  </body>
+</html>
