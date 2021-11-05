@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larg;
+  margin-bottom: 20px;
+  background-color:maroon ;
+  color:wheat ;
+  height: 100px;
+  line-height: 100px;
+}
+.flex-box1 {
+  background-color: darksalmon;
+  display: flex;
+  height: 300px;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column;  */
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  justify-content: center;
+}
+
+.flex-box1 div {
+  height: 100px;
+  width: 100px;
+  background-color:turquoise;
+  margin: 10px;
+  color: black;
+  font-size: 24px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.flex-box2 {
+  background-color: white;
+  display: flex;
+  height: 300px;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  align-items: center;
+  /* align-items: flex-end; */
+  justify-content: center;
+}
+
+.flex-box2 div {
+  height: 100px;
+  width: 100px;
+  background-color: pink ;
+  margin: 10px;
+  color:peru;
+  font-size: 24px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.flex-box3 {
+  background-color:gold ;
+  display: flex;
+  height: 300px;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
+  /* justify-content: space-evenly; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.flex-box3 div {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  margin: 10px;
+  color: white;
+  font-size: 24px;
+  line-height: 100px;
+  text-align: center;
+}
