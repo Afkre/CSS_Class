@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  body {
+    background-color: antiquewhite;
+  }
+  h2,
+  h3 {
+    text-align: center;
+    margin: 20px;
+  }
+  .altesbox {
+    background-color:coral ;
+    height: 120px;
+  }
+  .altesbox div {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color:crimson;
+    color: black;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  .flexbox {
+    display: flex;
+    background-color: coral;
+  }
+  
+  .flexbox div {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
