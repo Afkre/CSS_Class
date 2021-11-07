@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: content-box;
+}
+body {
+  background-color: darkkhaki;
+}
+h2 {
+  text-align: center;
+  margin: 30px;
+}
+h3 {
+  text-align: center;
+  margin: 30px;
+}
+
+.flex-kutu {
+  background-color: crimson;
+  display: flex;
+  height: 500px;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: column nowrap; */
+}
+
+.flex-kutu > div {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  line-height: 100px;
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+
+.en_son {
+  order: 999;
+  flex-shrink: 2;
+}
+.basa_git {
+  order: -1;
+  flex-grow: 3;
+}
