@@ -1,0 +1,21 @@
+#first {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /* position: relative;
+    left: 20px;
+    top: 50px */
+    /* margin-top: 50px; */
+}
+
+#second {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#third {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
