@@ -1,0 +1,24 @@
+div{
+    width:200px;
+
+    height:200px;
+
+    background-color: rosybrown;
+
+    font-size:20px;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin-left:10px;
+
+    float:left;
+}
+.box{
+    position: relative;
+   
+    top:220px;
+
+    left:30px;
+}
